@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fluot color</title>
+    <style>
+        * {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: border-box;
+            margin: 0%;
+        }
+
+        header {
+            background-color: rgb(44, 44, 44);
+            color: rgb(247, 251, 255);
+            text-align: center;
+            padding: 70px;
+        }
+        main{
+            display: flex;
+        }
+        div#sidebar {
+            background-color: #a2a2a2;
+            color: black;
+            /* float: left; */
+            width: 30%;
+            padding: 15px;
+            height: 250px;
+        }
+
+        div#sidebar a {
+            display: block;
+        }
+
+        div#content {
+            /* float: left; */
+            width: 70%;
+            background-color: #c2c2c2;
+            color: aliceblue;
+            /* padding: 91.5px; */
+            height: 250px;
+
+        }
+
+        div#content h1,
+        h2,
+        p {
+            padding: 10px;
+        }
+
+        footer {
+            background-color: rgb(44, 44, 44);
+            color: rgb(247, 251, 255);
+            text-align: center;
+            padding: 20px;
+            /* clear: left; */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>cities</h1>
+    </header>
+    <main>
+        <div id="sidebar">
+            <a href="google.com">LONDON</a>
+            <a href="google.com">PARIS</a>
+            <a href="google.com">TOKYO</a>
+        </div>
+        <div id="content">
+            <h1>London</h1>
+            <h2>London is the capital city of England.</h2>
+            <p>it is the most popuios city in the United Kingdom,with metropoliten area of over.13 million inhabitants
+                standing on the river thames.London has been a marjor settiement for two millennia,its history going
+                back to
+                its founding by the romans,who named it Londinium.</p>
+        </div>
+    </main>
+
+    <footer>footer</footer>
+</body>
+
+</html>
